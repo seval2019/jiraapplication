@@ -1,0 +1,1 @@
+.App{display:flex;flex-direction:column;justify-content:center;align-items:center}.taskForm{width:450px}.taskForm form{display:flex;flex-direction:column}.task-input,.task-label{margin-bottom:5px;border-radius:5px;padding:10px 0}.taskBtn{background-color:#bc8f8f;color:#fff;border:1px solid #bc8f8f;padding:10px;border-radius:5px;margin-top:5px;letter-spacing:2;font-size:16px}

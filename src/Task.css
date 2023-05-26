@@ -1,0 +1,71 @@
+.taskList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1280px;
+}
+.taskBox,.taskUpdateForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rosybrown;
+  width: 350px;
+  height: 200px;
+  border-radius: 40px;
+  margin: 10px;
+  padding: 15px 0;
+}
+.taskBox-text {
+  text-align: left;
+}
+
+.taskBox p,
+.taskBox h3 {
+  margin: 5px;
+}
+.taskSil,
+.taskGuncelle {
+  border-radius: 50px;
+  border: 1px solid;
+  color: #fff;
+  padding: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.task-title {
+  font-weight: 600;
+}
+.taskSil {
+  width: 50px;
+  background-color: red;
+  border-color: red;
+}
+.taskGuncelle {
+  width: 100px;
+  background-color: green;
+  border-color: green;
+}
+.taskUpdateForm{
+border-color: green;
+height: 330px;
+background: #fff;
+width: 350px;
+margin-top: 120px;
+}
+
+.taskUpdateForm form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.taskUpdateBtn {
+  background-color: green;
+  color: #fff;
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  letter-spacing: 2;
+}
